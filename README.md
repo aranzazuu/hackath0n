@@ -14,6 +14,8 @@ Plataforma educativa con cursos interactivos sobre cambio climático para difere
 App que ayuda a reciclar correctamente, con información sobre puntos de reciclaje y clasificación de residuos.
 
 # idea que escogi: 4. Plataforma de Reciclaje Inteligente / ECOSORT
+sabias que mas de el 50% de la contaminacion es causada por gente que no sabe reciclar? ese es el problema que busco solucionar con esta app enseñando a la gente como reciclar de manera correcta y simple.
+
 basicamente una app que tiene varias funciones como:
 1. mostrar en que bote de basura va cada cosa.
 2. manualidades que se pueden hace con materiales reciclados.
