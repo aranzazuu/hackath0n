@@ -18,23 +18,26 @@ sabias que mas de el 50% de la contaminacion es causada por gente que no sabe re
 
 basicamente una app que tiene varias funciones como:
 1. mostrar en que bote de basura va cada cosa.
-2. manualidades que se pueden hace con materiales reciclados.
-3. informacion y articulos de como evitar el cambio climatico.
+2. informacion y articulos de como evitar el cambio climatico.
+4. un apartado para tips de como puedes ayudar.
 
 espero llegar a obtener mas ideas para esta app.
 
 # funcionamiento:
-botes de basura:
-puedes tomar una foto de los botes que tengas disponibles y te va a decir en donde botar cada tipo de basura.
+deteccion:
+detectar tipos de basura.
 
-manualidades:
-vas a poder tomar una foto de algun material reciclabe que tengas y te va a dar una lista de cosas que fuedes hacer con el.
+datos curiosos:
+una seccion para datos sobre el reciclaje.
 
 informacion:
 hacer una interfaz en la que te puede aparecer distintos tipos de articulos de cambio climatico
 
 # cosas necesarias
 1. vision por ordenador, clasificacion y deteccion
-2. APIS de ia para poder hacer la parte de informacion
-3. data bases
+2. articulos
+
+# acceso a mi presentacion
+
+https://create.piktochart.com/output/2f84dc37e9e2-reciclaje-inteligente
 
