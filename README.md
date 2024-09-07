@@ -40,5 +40,6 @@ hacer una interfaz en la que te puede aparecer distintos tipos de articulos de c
 # acceso a mi presentacion
 
 infografia: https://create.piktochart.com/output/2f84dc37e9e2-reciclaje-inteligente
+
 presentacion: https://www.canva.com/design/DAGQHKDo27E/axKTVBXXTqdjI6mYNfBeNA/edit?utm_content=DAGQHKDo27E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
