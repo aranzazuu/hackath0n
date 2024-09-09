@@ -1,4 +1,0 @@
-0 carton
-1 latas
-2 pilas
-3 botellas de vidrio
