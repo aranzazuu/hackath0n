@@ -18,7 +18,7 @@ async def info(ctx):
         title="Bienvenido a la alpha de ECOSORT",
         description=("Recuerda que esta no va a ser la apariencia final del proyecto, todo va a cambiar para bien y mejorar. "
                      "Ahora con esto claro, esto es lo que tiene el bot por ahora:\n\n"
-                     "**1.** Distinción entre latas y cartón con el comando `$check` y colocar tu foto o imagen.\n"
+                     "**1.** Distinción entre latas y cartón con el comando `$check` y colocar tu foto o imagen (por ahora solo cuento con deteccion de latas, carton, pilas y botellas de vidrio).\n"
                      "**2.** Artículos de reciclaje con el comando `$recyclinginfo`.\n"
                      "**3.** maneras de ayudar con el comando `$como_puedo_ayudar`.\n"
                      "**4.** Datos curiosos sobre reciclar con el comando `$funfacts`."),
@@ -99,9 +99,13 @@ async def check(ctx):
             try:
                 clase = get_class(model_path = "keras_model.h5", labels_path = "labels.txt", image_path = f"./{file_name}"  )
                 if clase[0] == "carton":
-                    await ctx.send("Es carton, este tipo de basura va en los botes de color blanco")
+                    await ctx.send("Es carton, este tipo de basura va en los botes de color blanco mas informacion: https://youtu.be/SmoR5dr-OC4?si=muUaowPoDSsOqCM9")
                 elif clase[0] == "latas":
-                    await ctx.send("Son latas, este tipo de basura va en los botes de color blanco")
+                    await ctx.send("Son latas, este tipo de basura va en los botes de color blanco mas informacion: https://www.youtube.com/watch?v=HQeK4ip4TVw")
+                elif clase[0] == "pilas":
+                    await ctx.send("Son pilas, este tipo de basura va en botes de basura especialisados en estas mas informacion: https://youtu.be/G6iafHqJVEU?si=HI04qeOR7fCZY3_B")
+                elif clase[0] == "botellas de vidrio":
+                    await ctx.send("Son botellas de vidrio, este tipo de basura va en los botes de color verde mas informacion: https://youtu.be/bhGMnMdVj7k?si=sEerw3Qq_h9Noj2u")
             except:
                 await ctx.send("No se pudo identificar la imagen")
     else:
@@ -115,4 +119,4 @@ async def hello(ctx):
 async def heh(ctx, count_heh = 5):
     await ctx.send("he" * count_heh)
 
-bot.run("token")
+bot.run("TOKEN")
